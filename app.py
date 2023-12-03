@@ -193,4 +193,4 @@ def update_scatter_plot(selected_metric, selected_team, selected_archetypes, age
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
