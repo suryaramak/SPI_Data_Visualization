@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 
 # Load your data
 
-spi_data = pd.read_csv('22_23_spi_data.csv')
-salary_data = pd.read_csv('nba_salaries.csv')
+spi_data = pd.read_csv('./22_23_spi_data.csv')
+salary_data = pd.read_csv('./nba_salaries.csv')
 salary_data = salary_data[['Player Name', 'Salary']]
 
 # Combine SPI and salary data
