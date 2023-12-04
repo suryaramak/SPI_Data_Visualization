@@ -28,7 +28,6 @@ defense_color = '#2f4f4f'  # Grey
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-server = app.server
 
 # Define the font style
 font_family = "Futura, Arial, sans-serif"
